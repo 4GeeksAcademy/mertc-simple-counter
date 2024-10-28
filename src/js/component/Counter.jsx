@@ -12,8 +12,8 @@ function Counter() {
   }, []); // Runs once on mount
 
   return (
-    <div>
-      <h1>Seconds since page loaded: {seconds}</h1>
+    <div > 
+      <h1 className='text-white counter ' >{seconds}</h1>
     </div>
   );
 }
