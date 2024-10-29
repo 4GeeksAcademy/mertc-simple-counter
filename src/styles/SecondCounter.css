@@ -1,0 +1,32 @@
+.counter {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .digit {
+    font-size: 2rem;
+    color: #fff;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
